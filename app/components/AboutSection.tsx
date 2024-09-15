@@ -26,7 +26,7 @@ export default function AboutSection(props: { onActive?: () => void; }) {
                              src="https://media.licdn.com/dms/image/v2/D4E03AQEK8Z3_JYebOg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699736204343?e=1731542400&v=beta&t=SJzsmiaolXRGoKBnapRCZyoFGzlnD8zdz96fuXLY9N4"/>
 
                         <div
-                            className="w-full bg-brand-400/[0.3] rounded-lg p-6 border border-brand-50/[0.06] shadow-xl">
+                            className="w-full rounded-lg p-6 border border-brand-50/[0.06] shadow-xl">
                             <h1 className="text-3xl font-bold">Hi there, I&apos;m <span
                                 className="text-brand-500">Isaac</span>!</h1>
                             <p className="mt-5">I&apos;m a Software Engineer with expertise in web applications & game
@@ -36,9 +36,8 @@ export default function AboutSection(props: { onActive?: () => void; }) {
                                 and innovative problem-solving.</p>
                         </div>
 
-                        <div
-                            className="w-full h-[20%] bg-brand-400/[0.3] rounded-lg p-4 border border-brand-50/[0.06] shadow-xl">
-                            <strong className="text-brand-100">Top Skills: </strong>
+                        <div className="w-full h-[20%] rounded-lg p-4 border border-brand-50/[0.06] shadow-xl">
+                            <strong className="text-brand-400">Top Skills: </strong>
                             C# • ASP.NET MVC • React • Typescript/Javascript • SQL • Lua • Python
                         </div>
                     </div>
