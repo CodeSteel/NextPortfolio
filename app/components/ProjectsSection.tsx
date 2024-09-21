@@ -24,7 +24,7 @@ export default function ProjectsSection(props: { onActive?: () => void; })
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 w-full">
                         <Project
                             title="MinimalTasks" href="https://github.com/CodeSteel/MinimalTasks"
-                            caption="A minimal and industry-ready task management web-application made with ASP.NET & React."
+                            caption="A minimalistic industry-ready task management web-application made with ASP.NET & React."
                             tech="ASP.NET MVC - C# - React - TailwindCSS - MySQL"
                             img="https://i.imgur.com/msFc5yi.png" />
                         
