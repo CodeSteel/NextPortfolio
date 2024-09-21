@@ -22,16 +22,22 @@ export default function ProjectsSection(props: { onActive?: () => void; })
             }}>
                 <FadeIn visible={visible}>
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 w-full">
+                        <Project
+                            title="Tickets App" href="https://github.com/CodeSteel/TicketsApp"
+                            caption="A ticket-handling system created with ASP.NET & React."
+                            tech="ASP.NET MVC - C# - React - TailwindCSS - MySQL"
+                            img="https://i.imgur.com/Ov3zxFN.png" />
+                        
                         <Project 
                             title="MeChat" href="https://github.com/CodeSteel/MeChat" 
-                            caption="An ASP.NET real-time chat web application"
-                            tech="ASPNET MVC - C# - TailwindCSS - PostgreSQL"
+                            caption="An ASP.NET real-time chat web application."
+                            tech="ASP.NET MVC - C# - TailwindCSS - PostgreSQL"
                             img="https://i.imgur.com/Xssz9o8.png" />
 
                         <Project
                             title="UBlog" href="https://github.com/CodeSteel/UBlogASPNetApp"
                             caption="A blogging web-app developed with ASP.NET."
-                            tech="ASPNET MVC - C# - Bootstrap - MySQL"
+                            tech="ASP.NET MVC - C# - Bootstrap - MySQL"
                             img="https://i.imgur.com/8RdKLVS.png" />
                         
                         <Project

@@ -29,11 +29,7 @@ export default function AboutSection(props: { onActive?: () => void; }) {
                             className="w-full rounded-lg p-6 border border-brand-50/[0.06] shadow-xl">
                             <h1 className="text-3xl font-bold">Hi there, I&apos;m <span
                                 className="text-brand-500">Isaac</span>!</h1>
-                            <p className="mt-5">I&apos;m a Software Engineer with expertise in web applications & game
-                                systems. I have successfully tackled a diverse range of projects, including the
-                                development of gameplay experiences, web applications, desktop applications, and rest
-                                APIs. I am a self-taught software engineer driven by a passion of continuous learning
-                                and innovative problem-solving.</p>
+                            <p className="mt-5">A highly motivated software engineer with expertise in web applications & game systems. Successfully tackled a diverse range of projects, from online gameplay experiences to responsive web applications with backend restful APIs. Completely self-taught driven by a passion of writing clean code & making things happen.</p>
                         </div>
 
                         <div className="w-full h-[20%] rounded-lg p-4 border border-brand-50/[0.06] shadow-xl">
