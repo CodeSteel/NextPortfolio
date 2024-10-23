@@ -34,7 +34,7 @@ export default function AboutSection(props: { onActive?: () => void; }) {
 
                         <div className="w-full h-[20%] rounded-lg p-4 border border-brand-50/[0.06] shadow-xl">
                             <strong className="text-brand-400">Top Skills: </strong>
-                            C# • ASP.NET MVC • React • Typescript/Javascript • SQL • Lua • Python
+                            C# • ASP.NET MVC • React • Typescript/Javascript • MySQL • Unity • Lua • Python
                         </div>
                     </div>
                     <div className="mt-5 lg:m-auto flex flex-col space-y-5">

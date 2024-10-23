@@ -23,6 +23,12 @@ export default function ProjectsSection(props: { onActive?: () => void; })
                 <FadeIn visible={visible}>
                     <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 w-full">
                         <Project
+                            title="IndieLaunch" href="https://indielaunch.azurewebsites.net/"
+                            caption="An online marketplace social platform designed for indie developers to publish their games and share updates on their development progress."
+                            tech="ASP.NET MVC - C# - React - TailwindCSS - MySQL"
+                            img="https://i.imgur.com/L8IKVJD.png" />
+                        
+                        <Project
                             title="MinimalTasks" href="https://github.com/CodeSteel/MinimalTasks"
                             caption="A minimalistic industry-ready task management web-application made with ASP.NET & React."
                             tech="ASP.NET MVC - C# - React - TailwindCSS - MySQL"
@@ -57,6 +63,12 @@ export default function ProjectsSection(props: { onActive?: () => void; })
                             caption="A fully networked & optimized 2 dimensional inventory system."
                             tech="Unity - C# - Fishnet"
                             img="https://i.imgur.com/fhnsllV.png" />
+
+                        <Project
+                            title="And more..." href="https://github.com/CodeSteel/"
+                            caption="Click to go to my github"
+                            tech=""
+                            img="https://i.imgur.com/EgSnTgp.png" />
                     </div>
                 </FadeIn>
             </Sensor>
